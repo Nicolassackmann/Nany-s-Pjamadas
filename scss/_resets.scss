@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../image/fondo/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-areas: "header"
+                         "aside"
+                         "main"
+                         "footer";
+/*     font-family: $font-principal;
+ 
+    &::-webkit-scrollbar {
+        width: 10px;
+        background-color:map-get($colores , color-primario);
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color:map-get($colores, color-gris) ;
+        border-radius: 5px;
+    }
+
+*/}
